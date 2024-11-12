@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Airbnb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.jpeg" alt="" style="width: 50px;">
+            </div>
+            <div class="name">
+                <h1>
+                  <b>  Airbnb your place</b>
+                </h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search locations or properties">
+                <button onclick="searchListings()">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- <button class="login" type="submit"> login -->
+        </button>
+        <input type="submit" value= "login" class="login">
+        <section class="intro">
+            <h1>Find Your Perfect Stay</h1>
+            <!-- <p>Explore the best properties in the world's most popular destinations.</p> -->
+        </section>
+
+        <section class="listings">
+            <h2>Featured Properties</h2>
+            <div class="listing-grid">
+                <div class="listing-card">
+                    <img src="apart.jpeg" alt="Property 1">
+                    <h3>Beautiful Apartment in New York</h3>
+                    <p>$150/night</p>
+                </div>
+                <div class="listing-card">
+                    <img src="mount.jpeg" alt="Property 2">
+                    <h3>Cozy Cabin in the Mountains</h3>
+                    <p>$120/night</p>
+                </div>
+                <div class="listing-card">
+                    <img src="villa.jpeg" alt="Property 3">
+                    <h3>Luxury Beachfront Villa</h3>
+                    <p>$500/night</p>
+                </div>
+                <div class="listing-card">
+                    <img src="paris.jpeg" alt="Property 4">
+                    <h3>Modern Apartment in Paris</h3>
+                    <p>$250/night</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Airbnb . All rights reserved.</p>
+            <p>contact us:<br>
+                mail:airbnb@gmail.com<Br>
+                    phone no:123567356
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
